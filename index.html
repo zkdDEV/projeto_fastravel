@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FasTravel</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee&family=Dosis&family=Foldit&family=Oswald&family=Prompt:wght@400;800&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>FasTravel</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navID">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="navID">
+                        <ul class="nav nav-pills navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#carrossel">Carrossel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#destaques">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aviao">Avião</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#onibus">Ônibus</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div data-bs-spy="scroll" data-bs-target="header">
+            <section id="carrossel">
+                <div class="conteudo">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carouselID">
+                        <div class="carousel-indicators">
+                            <button data-bs-target="carouselID" data-bs-slide-to="0" class="active"></button>
+                            <button data-bs-target="carouselID" data-bs-slide-to="1"></button>
+                            <button data-bs-target="carouselID" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img src="./img/carousel/canada.jpg" alt="Floresta no Canadá">
+                                <div class="carousel-caption">
+                                    <h2>Canadá</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="./img/carousel/inglaterra.jpg" alt="Inglaterra - Londres">
+                                <div class="carousel-caption">
+                                    <h2>Inglaterra</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="./img/carousel/brasil.jpg" alt="Brasil - Rio de janeiro">
+                                <div class="carousel-caption">
+                                    <h2>Brasil</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <button data-bs-target="#carouselID" data-bs-slide="prev" class="carousel-control-prev"  type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carouselID" data-bs-slide="next" class="carousel-control-next"  type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="destaques">
+                <div class="container">
+                    <h1 id="title-section">Destaques</h1>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card  text-bg-info">
+                                <div class="card-header">
+                                    <h1>Europa</h1>
+                                </div>
+                                <img src="./img/cards/destaques/card-europa.jpg" alt="Floresta da Alemanha">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>Passagens com desconto para:</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            Inglaterra, Irlanda do Norte, França, Espanha, Portugal, Alemanha
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-dark" type="button">Ver mais...</button>
+                                <div class="card-footer">
+                                    <strong>Disponível até 19/07/23</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card  text-bg-info">
+                                <div class="card-header">
+                                    <h1>Ásia</h1>
+                                </div>
+                                <img src="./img/cards/destaques/card-asia.jpg" alt="Muralha da China">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>Passagens com desconto para:</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            China, Japão, Coreia do Sul, Indonésia, Índia
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-dark" type="button">Ler mais</button>
+                                <div class="card-footer">
+                                    <strong>Disponível até 23/06/23</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card  text-bg-info">
+                                <div class="card-header">
+                                    <h1>América</h1>
+                                </div>
+                                <img src="./img/cards/destaques/card-america.jpg" alt="Floresta da Argentina">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>Passagens com desconto para:</h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            Brasil, Uruguai, Chile, Estados Unidos, Canadá, México,
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-dark" type="button">Ler mais</button>
+                                <div class="card-footer">
+                                    <strong>Disponível até 10/09/23</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ######################################################## -->
+            <section id="aviao">
+                <div class="container">
+                    <h1 id="title-section">Aviões</h1>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card  text-bg-primary">
+                                <div class="card-header">
+                                    <h1>Portugal</h1>
+                                </div>
+                                <img src="./img/cards/avioes/card-aviao-portugal.jpg" alt="Cidade de Portugal">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 3700,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 2000,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-primary">
+                                <div class="card-header">
+                                    <h1>Inglaterra</h1>
+                                </div>
+                                <img src="./img/cards/avioes/card-aviao-inglaterra.jpg" alt="Litoral da Inglaterra">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 5000,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 3500,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-primary">
+                                <div class="card-header">
+                                    <h1>Alemanha</h1>
+                                </div>
+                                <img src="./img/cards/avioes/card-aviao-alemanha.jpg" alt="Cidade da Alemanha">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 3400,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 2800,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-primary">
+                                <div class="card-header">
+                                    <h1>Áustria</h1>
+                                </div>
+                                <img src="./img/cards/avioes/card-aviao-austria.jpg" alt="Floresta Áustralia">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 4000,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 2700,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="onibus">
+                <div class="container">
+                    <h1 id="title-section">Ônibus</h1>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card  text-bg-secondary">
+                                <div class="card-header">
+                                    <h1>Bolívia</h1>
+                                </div>
+                                <img src="./img/cards/onibus/card-onibus-bolivia.jpg" alt="Lago de sal na Bolívia">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 600,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 450,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-secondary">
+                                <div class="card-header">
+                                    <h1>Peru</h1>
+                                </div>
+                                <img src="./img/cards/onibus/card-onibus-peru.jpg" alt="Vestigios da cidade de Machu Picchu">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 830,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 570,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-secondary">
+                                <div class="card-header">
+                                    <h1>Paraguai</h1>
+                                </div>
+                                <img src="./img/cards/onibus/card-onibus-paraguai.jpg" alt="Cidade do Paraguai">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 500,00</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 360,00 
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  text-bg-secondary">
+                                <div class="card-header">
+                                    <h1>Argentina</h1>
+                                </div>
+                                <img src="./img/cards/onibus/card-onibus-argentina.jpg" alt="Montanhas da Argentina">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h3>De <s>R$ 550</s></h3>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>
+                                            para R$ 380
+                                        </p>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-lg" type="button">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; Copyright FasTravel 2023 - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

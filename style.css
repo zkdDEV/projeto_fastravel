@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #################################################################### */
+
+/* Configurações do conteudo */
+.conteudo
+{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.conteudo img
+{
+    height: 600px;
+    width: 100%;
+}
+
+/* #################################################################### */
+
+/* Configurações do header */
+header
+{
+    padding: 5px;
+    background-color: rgb(38, 190, 250);
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+header h1
+{
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+header nav ul li
+{
+    text-align: center;
+}
+
+/* #################################################################### */
+
+/* Configurações das seções */
+section
+{
+    background-color: #e7e7e7;
+}
+#title-section
+{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+#destaques
+{
+    padding: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#destaques .card-text
+{
+    font-size: 20px;
+}
+#aviao
+{
+    padding: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#aviao .card-text
+{
+    font-size: 20px;
+}
+#onibus
+{
+    padding: 50px;
+}
+#onibus .card-text
+{
+    font-size: 20px;
+}
+
+/* #################################################################### */
+
+/* Configurações do Footer */
+footer
+{
+    background-color: rgb(38, 190, 250);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
