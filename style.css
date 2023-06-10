@@ -30,6 +30,7 @@ header
     position: sticky;
     left: 0;
     top: 0;
+    z-index: 1000;
 }
 header h1
 {
@@ -57,7 +58,7 @@ section
 }
 #destaques
 {
-    padding: 50px;
+    padding: 120px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 #destaques .card-text
@@ -66,7 +67,7 @@ section
 }
 #aviao
 {
-    padding: 50px;
+    padding: 120px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 #aviao .card-text
@@ -75,7 +76,7 @@ section
 }
 #onibus
 {
-    padding: 50px;
+    padding: 120px;
 }
 #onibus .card-text
 {
